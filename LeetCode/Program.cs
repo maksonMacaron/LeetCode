@@ -1,4 +1,7 @@
 ﻿using LeetCode.Solutions;
+using LeetCode.Solutions.Arrays;
+using LeetCode.Solutions.Problems;
+using System.Diagnostics;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace LeetCode
@@ -42,7 +45,12 @@ namespace LeetCode
                  next = node2,
                  val = 1,
              };*/
-            Console.WriteLine(Solution_Array_1.Solution_Introduction.FindNumbers([12, 345, 2, 6, 7896]));
+            //HelperSolution.PrintArray(Solution_Array_1.Merge([0], 0, [1], 1));
+            //Вывод: [1,2,2,3,5,6]
+            //Console.WriteLine(Solution_Problems.Solution_9.IsPalindrome_Int(41_738));
+            //HelperSolution.PrintArray(Solution_Array_1.Merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3));
+            //HelperSolution.PrintArray(Solution_Array_1.Merge([0], 0, [1], 1));
+            Solution_Array_1.RemoveElement([0, 1, 2, 2, 3, 0, 4, 2], 2);
             Console.ReadKey();
         }
     }
