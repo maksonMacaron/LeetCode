@@ -50,7 +50,11 @@ namespace LeetCode
             //Console.WriteLine(Solution_Problems.Solution_9.IsPalindrome_Int(41_738));
             //HelperSolution.PrintArray(Solution_Array_1.Merge([1, 2, 3, 0, 0, 0], 3, [2, 5, 6], 3));
             //HelperSolution.PrintArray(Solution_Array_1.Merge([0], 0, [1], 1));
-            Solution_Array_1.RemoveElement([0, 1, 2, 2, 3, 0, 4, 2], 2);
+            //Solution_Array_1.RemoveElement([0, 1, 2, 2, 3, 0, 4, 2], 2);
+            //HelperSolution.PrintArray(Solution_Problems.Solution_0001.TwoSum([3, 2, 4], 6));
+            object result;
+            result = Solution_Problems.Solution_0020.IsValid("[([]])");
+            Console.WriteLine(result.ToString());
             Console.ReadKey();
         }
     }
